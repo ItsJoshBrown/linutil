@@ -57,6 +57,12 @@ description = "Yet Another Yogurt - An AUR Helper Written in Go. To know more ab
 script = "arch/yay-setup.sh"
 task_list = "I"
 
+[[data.entries]]
+name = "Downgrade Utility"
+description = "Downgrade lets you revert packages using pacman’s cache or the Arch Linux Archive. Installs via AUR. More info: https://github.com/archlinux-downgrade/downgrade"
+script = "arch/downgrade.sh"
+task_list = "I MP FM"
+
 [[data]]
 name = "Debian"
 
